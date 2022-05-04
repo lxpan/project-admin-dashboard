@@ -18,6 +18,10 @@ body {
     grid-template-rows: 1fr 5fr;
 }
 
+.sidebar li {
+    font-size: 1.5rem;
+}
+
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
