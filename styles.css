@@ -69,15 +69,15 @@ body {
     gap: 10px;
 }
 
-.user-info .user-picture {
-    justify-self: flex-end;
-}
-
 .user-info .greeting::first-line {
     font-size: 1.2rem;
 }
 
-.user-info img {
+.user-info .user-picture {
+    justify-self: flex-end;
+}
+
+.user-info .user-picture img {
     height: 100%;
 }
 
