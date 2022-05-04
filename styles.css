@@ -48,11 +48,17 @@ body {
     gap: 10px;
 }
 
-.search-bar input[type="text"] {
+.header .search-bar input[type="text"] {
     width: 90%;
     height: 1.5rem;
     background-color: lightblue;
     border-radius: 10px;
+}
+
+.header .user-notifications {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .user-info {
