@@ -90,6 +90,14 @@ body {
     align-items: center;
 }
 
+.header-buttons button {
+    color: white;
+    font-size: 1rem;
+    background-color: blueviolet;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
 .main-content {
     grid-column: 2 / 3;
     grid-row: 2 / 6;
