@@ -124,3 +124,8 @@ body {
     padding: 20px;
     border: 1px solid #000;
 }
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
