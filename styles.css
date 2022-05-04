@@ -18,6 +18,7 @@ body {
     grid-template-rows: 1fr 5fr;
 }
 
+/* Using Flexbox */
 .sidebar .logo {
     display: flex;
     align-items: center;
@@ -42,6 +43,7 @@ body {
     margin: 20px 40px;
 }
 
+/* Using Flexbox */
 .header .search-bar {
     display: flex;
     align-items: center;
@@ -55,6 +57,7 @@ body {
     border-radius: 10px;
 }
 
+/* Using Flexbox */
 .header .user-notifications {
     display: flex;
     justify-content: center;
