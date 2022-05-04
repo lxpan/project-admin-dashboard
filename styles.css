@@ -123,6 +123,8 @@ body {
 .main-content .card {
     padding: 20px;
     border: 1px solid #000;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
 }
 
 .card h3 {
