@@ -62,7 +62,23 @@ body {
 }
 
 .user-info {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-size: 1.5rem;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.user-info .user-info-picture {
+    justify-self: flex-end;
+}
+
+.user-info .greeting::first-line {
+    font-size: 1.2rem;
+}
+
+.user-info img {
+    height: 100%;
 }
 
 .main-content {
