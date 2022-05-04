@@ -39,6 +39,10 @@ body {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
+    margin: 20px 40px;
+}
+
+.user-info {
 }
 
 .main-content {
