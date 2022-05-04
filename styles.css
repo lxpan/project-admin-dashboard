@@ -131,3 +131,8 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.card .card-actions {
+    justify-self: end;
+    align-self: end;   
+}
