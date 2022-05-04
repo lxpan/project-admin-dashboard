@@ -42,7 +42,20 @@ body {
     margin: 20px 40px;
 }
 
+.header .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input[type="text"] {
+    width: 90%;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
 .user-info {
+    display: flex;
 }
 
 .main-content {
