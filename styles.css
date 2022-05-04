@@ -138,3 +138,7 @@ body {
     justify-self: end;
     align-self: end; 
 }
+
+.card-actions img {
+    height: 35px;
+}
