@@ -50,6 +50,7 @@ body {
 
 .search-bar input[type="text"] {
     width: 90%;
+    height: 1.5rem;
     background-color: lightblue;
     border-radius: 10px;
 }
