@@ -65,8 +65,8 @@ body {
     gap: 20px;
 }
 
-.user-notifications>* {
-    height: 100%;
+.user-notifications img {
+    height: 60%;
 }
 
 .user-info {
