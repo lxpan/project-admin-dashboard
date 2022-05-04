@@ -69,7 +69,7 @@ body {
     gap: 10px;
 }
 
-.user-info .user-info-picture {
+.user-info .user-picture {
     justify-self: flex-end;
 }
 
