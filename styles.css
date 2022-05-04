@@ -84,6 +84,12 @@ body {
     height: 100%;
 }
 
+.header-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .main-content {
     grid-column: 2 / 3;
     grid-row: 2 / 6;
