@@ -133,6 +133,8 @@ body {
 }
 
 .card .card-actions {
+    display: flex;
+    gap: 10px;
     justify-self: end;
-    align-self: end;   
+    align-self: end; 
 }
