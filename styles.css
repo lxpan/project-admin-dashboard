@@ -113,6 +113,7 @@ body {
 }
 
 .main-content .projects {
+    padding: 20px 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
