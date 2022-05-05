@@ -125,6 +125,7 @@ body {
 .main-content .card {
     padding: 20px;
     border: 1px dotted #000;
+    height: 150px;
     display: grid;
     grid-template-rows: 2fr 1fr;
 }
