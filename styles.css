@@ -110,12 +110,13 @@ body {
     grid-row: 2 / 6;
     background-color: lightgoldenrodyellow;
     display: grid;
+    padding: 20px;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 80px 6fr;
 }
 
 .main-content .projects {
-    padding: 20px 20px;
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
