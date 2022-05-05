@@ -124,7 +124,6 @@ body {
 
 .main-content .card {
     padding: 20px;
-    height: 200px;
     border: 1px dotted #000;
     display: grid;
     grid-template-rows: 2fr 1fr;
@@ -145,4 +144,9 @@ body {
 
 .card-actions img {
     height: 35px;
+}
+
+.main-content .announcements {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
