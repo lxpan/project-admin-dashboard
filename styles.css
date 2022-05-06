@@ -1,6 +1,7 @@
 :root {
     --main-content-bg-colour: #E2E8F0;
     --sidebar-bg-colour: #1992D4;
+    --sidebar-text-colour: #FFFFFF;
     --card-dash-colour: #F0B429;
 }
 
@@ -28,6 +29,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 5fr;
     background-color: var(--sidebar-bg-colour);
+    color: var(--sidebar-text-colour);
 }
 
 /* Using Flexbox */
