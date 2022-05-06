@@ -27,6 +27,7 @@ body {
     grid-row: 1 / 6;
     display: grid;
     grid-template-rows: 1fr 5fr;
+    background-color: var(--sidebar-bg-colour);
 }
 
 /* Using Flexbox */
