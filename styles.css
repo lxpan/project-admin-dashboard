@@ -120,7 +120,7 @@ body {
 .main-content {
     grid-column: 2 / 3;
     grid-row: 2 / 6;
-    background-color: lightgoldenrodyellow;
+    background-color: var(--main-content-bg-colour);
     display: grid;
     padding: 20px;
     grid-template-columns: 3fr 1fr;
