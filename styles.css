@@ -22,6 +22,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
+    /* "hack" to restrict amount of free vertical space */
     height: var(--website-height);
 }
 
