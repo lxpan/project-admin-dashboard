@@ -6,7 +6,8 @@
 }
 
 /* temporary borders to help with styling */
-.sidebar, .projects, .card {
+/* .sidebar, .projects, .card */
+.news, .trending {
     border: 1px dotted #000;
 }
 
