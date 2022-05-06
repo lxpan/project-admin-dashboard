@@ -55,7 +55,6 @@ body {
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
     padding: 20px 40px;
-    background-color: lightgrey;
 }
 
 /* Using Flexbox */
@@ -68,7 +67,7 @@ body {
 .header .search-bar input[type="text"] {
     width: 90%;
     height: 1.5rem;
-    background-color: lightblue;
+    background-color: var(--main-content-bg-colour);
     border-radius: 10px;
 }
 
