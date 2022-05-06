@@ -1,3 +1,8 @@
+/* temporary borders to help with styling */
+.sidebar, .projects, .card {
+    border: 1px dotted #000;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +19,6 @@ body {
 .sidebar {
     grid-column: 1;
     grid-row: 1 / 6;
-    border: 1px solid #000;
     display: grid;
     grid-template-rows: 1fr 5fr;
 }
@@ -120,12 +124,10 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    border: 1px dotted #000;
 }
 
 .main-content .card {
     padding: 20px;
-    border: 1px dotted #000;
     height: 175px;
     display: grid;
     grid-template-rows: 2fr 1fr;
