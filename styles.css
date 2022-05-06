@@ -1,3 +1,9 @@
+:root {
+    --main-content-bg-colour: #E2E8F0;
+    --sidebar-bg-colour: #1992D4;
+    --card-dash-colour: #F0B429;
+}
+
 /* temporary borders to help with styling */
 .sidebar, .projects, .card {
     border: 1px dotted #000;
