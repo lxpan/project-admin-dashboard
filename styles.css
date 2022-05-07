@@ -165,8 +165,8 @@ body {
 }
 
 .main-content .announcements {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 .news-pane {
