@@ -167,6 +167,7 @@ body {
 .main-content .announcements {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .news-pane {
@@ -193,4 +194,9 @@ body {
 
 hr {
     margin: 15px 0;
+}
+
+.trending {
+    background-color: white;
+    border-radius: 12px;
 }
