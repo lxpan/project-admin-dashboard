@@ -9,7 +9,7 @@
 /* temporary borders to help with styling */
 /* .sidebar, .projects, .card */
 .news, .trending {
-    border: 1px dotted #000;
+    /* border: 1px dotted #000; */
 }
 
 body {
@@ -168,4 +168,21 @@ body {
 .main-content .announcements {
     display: grid;
     grid-template-rows: 1fr 1fr;
+}
+
+.news-pane {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.news-item {
+    color: gray;
+    font-size: smaller;
+}
+
+.news-title {
+    font-size: normal;
+    font-weight: bold;
+    color: black;
 }
