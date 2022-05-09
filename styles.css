@@ -61,8 +61,16 @@ body {
 }
 
 .menu-item {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+}
+
+.menu-item img, span {
     align-self: center;
-    justify-self: start;
+}
+
+.menu-item img {
+    justify-self: center;
 }
 
 .header {
