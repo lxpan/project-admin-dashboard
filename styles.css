@@ -1,7 +1,8 @@
 :root {
     --website-height: 100vh;
-    --main-content-bg-colour: #E2E8F0;
-    --sidebar-bg-colour: #1992D4;
+    --header-bg-color: #f1f5f9;
+    --main-content-bg-colour: #cbd5e1;
+    --sidebar-bg-colour: #64748b;
     --sidebar-text-colour: #FFFFFF;
     --card-dash-colour: #F0B429;
 }
@@ -58,6 +59,7 @@ body {
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
     padding: 20px 40px;
+    background-color: var(--header-bg-color);
 }
 
 /* Using Flexbox */
