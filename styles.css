@@ -2,6 +2,7 @@
     --website-height: 100vh;
     /* slate 100 */
     --header-bg-color: #f1f5f9;
+    --header-button-color: var(--sidebar-bg-colour);
     /* slate 300 */
     --main-content-bg-colour: #cbd5e1;
     /* slate 500 */
@@ -120,7 +121,7 @@ body {
 .header-buttons button {
     color: white;
     font-size: 1rem;
-    background-color: blueviolet;
+    background-color: var(--header-button-color);
     padding: 15px 30px;
     border-radius: 20px;
 }
