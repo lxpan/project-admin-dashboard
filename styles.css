@@ -1,7 +1,10 @@
 :root {
     --website-height: 100vh;
+    /* slate 100 */
     --header-bg-color: #f1f5f9;
+    /* slate 300 */
     --main-content-bg-colour: #cbd5e1;
+    /* slate 500 */
     --sidebar-bg-colour: #64748b;
     --sidebar-text-colour: #FFFFFF;
     --card-dash-colour: #F0B429;
