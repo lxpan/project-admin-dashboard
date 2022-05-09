@@ -172,6 +172,11 @@ body {
     margin-right: 20px;
 }
 
+.announcements h3 {
+    margin: 0;
+    padding: 0;
+}
+
 .news-pane {
     background-color: white;
     border-radius: 12px;
