@@ -125,7 +125,7 @@ body {
 
 .user-info {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 50px 1fr;
     font-size: 1.5rem;
     font-weight: bold;
     gap: 10px;
@@ -136,11 +136,13 @@ body {
 }
 
 .user-info .user-picture {
-    justify-self: flex-end;
+    justify-self: center;
+    align-self: center;
 }
 
 .user-info .user-picture img {
-    height: 100%;
+    height: 50%;
+    
 }
 
 .header-buttons {
