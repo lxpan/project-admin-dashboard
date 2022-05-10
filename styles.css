@@ -13,6 +13,7 @@
     --sidebar-menu-row-size: 2.0rem;
     --sidebar-menu-top-height: calc((var(--sidebar-menu-row-size) + 8px) * 6 + 50px);
     --card-dash-colour: #2EA9C2;
+    --main-content-projects-card-size: 150px;
 }
 
 /* temporary borders to help with styling */
@@ -182,7 +183,7 @@ body {
 
 .main-content .card {
     padding: 20px;
-    height: 150px;
+    height: var(--main-content-projects-card-size);
     display: grid;
     grid-template-rows: 2fr 1fr;
     background-color: white;
