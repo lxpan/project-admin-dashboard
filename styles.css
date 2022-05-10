@@ -39,7 +39,7 @@ body {
     grid-column: 1;
     grid-row: 1 / 6;
     display: grid;
-    grid-template-rows: 100px var(--sidebar-menu-top-height) 2fr;
+    grid-template-rows: 120px var(--sidebar-menu-top-height) 2fr;
     background-color: var(--sidebar-bg-colour);
     color: var(--sidebar-text-colour);
 }
