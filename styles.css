@@ -10,7 +10,8 @@
     --sidebar-text-colour: #FFFFFF;
     --sidebar-title-font-size: 2.0rem;
     --sidebar-menu-font-size: 1.5rem;
-    --sidebar-menu-top-height: calc((2rem + 8px) * 6 + 50px);
+    --sidebar-menu-row-size: 2.0rem;
+    --sidebar-menu-top-height: calc((var(--sidebar-menu-row-size) + 8px) * 6 + 50px);
     --card-dash-colour: #F0B429;
 }
 
@@ -62,7 +63,7 @@ body {
 .menu-top, .menu-bottom {
     display: grid;
     grid-auto-flow: row;
-    grid-auto-rows: 2rem;
+    grid-auto-rows: var(--sidebar-menu-row-size);
     gap: 8px;
     margin-left: 20px;
     font-size: var(--sidebar-menu-font-size);
