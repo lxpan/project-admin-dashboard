@@ -117,6 +117,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-weight: bold;
 }
 
 .user-notifications img {
