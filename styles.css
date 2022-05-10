@@ -8,6 +8,7 @@
     /* slate 500 */
     --sidebar-bg-colour: #64748b;
     --sidebar-text-colour: #FFFFFF;
+    --sidebar-title-font-size: 1.5rem;
     --sidebar-menu-font-size: 1.5rem;
     --card-dash-colour: #F0B429;
 }
@@ -54,7 +55,7 @@ body {
 }
 
 .branding .title {
-    font-size: 1.5rem;
+    font-size: var(--sidebar-title-font-size);
 }
 
 .menu-top, .menu-bottom {
