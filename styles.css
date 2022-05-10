@@ -182,7 +182,7 @@ body {
 
 .main-content .card {
     padding: 20px;
-    height: 175px;
+    height: 150px;
     display: grid;
     grid-template-rows: 2fr 1fr;
     background-color: white;
