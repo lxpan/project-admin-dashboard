@@ -48,7 +48,7 @@ body {
     gap: 10px;
 }
 
-.sidebar .branding img {
+.sidebar .branding .logo {
     height: 30%;
 }
 
