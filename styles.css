@@ -148,7 +148,8 @@ body {
 
 .header-buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
+    gap: 20px;
     align-items: center;
 }
 
