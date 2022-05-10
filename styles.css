@@ -10,6 +10,7 @@
     --sidebar-text-colour: #FFFFFF;
     --sidebar-title-font-size: 2.0rem;
     --sidebar-menu-font-size: 1.5rem;
+    --sidebar-menu-top-height: calc((2rem + 8px) * 6 + 50px);
     --card-dash-colour: #F0B429;
 }
 
@@ -37,7 +38,7 @@ body {
     grid-column: 1;
     grid-row: 1 / 6;
     display: grid;
-    grid-template-rows: 100px 1fr 2fr;
+    grid-template-rows: 100px var(--sidebar-menu-top-height) 2fr;
     background-color: var(--sidebar-bg-colour);
     color: var(--sidebar-text-colour);
 }
