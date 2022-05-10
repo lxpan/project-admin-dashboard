@@ -253,6 +253,7 @@ hr {
 .trending-item {
     display: grid;
     grid-template-columns: 50px 1fr;
+    grid-auto-rows: 51px;
     color: slategrey;
     font-size: .8rem;
 }
