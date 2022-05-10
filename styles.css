@@ -108,6 +108,7 @@ body {
     width: 90%;
     height: 1.5rem;
     background-color: var(--main-content-bg-colour);
+    border-style: none;
     border-radius: 10px;
 }
 
