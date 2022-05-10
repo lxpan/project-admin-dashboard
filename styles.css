@@ -198,13 +198,9 @@ body {
 /* Using Flexbox */
 .card .card-actions {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-self: end;
     align-self: end; 
-}
-
-.card-actions img {
-    height: 35px;
 }
 
 .main-content .announcements {
